@@ -124,7 +124,6 @@ class CameraViewController: UIViewController {
             fileOutput.startRecording(to: newRecordingURL(), recordingDelegate: self)
         }
 	}
-    <h1> Huh </h1>
 	
 	/// Creates a new file URL in the documents directory
 	private func newRecordingURL() -> URL {
